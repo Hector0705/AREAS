@@ -5,13 +5,13 @@
 
 int main()
 {
-	int area;
-	int altura;
-	int base;
+	float area;
+	float altura;
+	float base;
 	printf("Altura: ");
-	scanf_s("%i", &altura);
+	scanf_s("%f", &altura);
 	printf("Base: ");
-	scanf_s("%d", &base);
-	area = base * altura;
-	printf("El rectangulo de %i x %i tiene area de %i", base, altura, area);
+	scanf_s("%f", &base);
+	area = (base * altura) / 2;
+	printf("El triangulo tiene area de %.1f", area);
 }
