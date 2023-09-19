@@ -6,12 +6,9 @@
 int main()
 {
 	float area;
-	float altura;
-	float base;
-	printf("Altura: ");
-	scanf_s("%f", &altura);
-	printf("Base: ");
-	scanf_s("%f", &base);
-	area = (base * altura) / 2;
-	printf("El triangulo tiene area de %.1f", area);
+	float radio;
+	printf("radio: ");
+	scanf_s("%f", &radio);
+	area = radio * radio * 3.1416;
+	printf("El circulo tiene area de %.2f", area);
 }
